@@ -1,1 +1,25 @@
-lien pour accéder à l'évalution sur github : 
+lien pour accéder à l'évalution sur github : https://github.com/melidcode/1_Evaluation_html_css_bootstrap.git
+
+commandes: 
+
+Etape 1: Aller dans le dossier
+
+cd *NOM DU DEPOT*
+
+exemple: cd 1_Evaluation_html_css_bootstrap
+
+Etape 2: Ajout des fichiers
+
+git add -a (genère les new fichiers modifiés)
+
+A noter:
+La commande "git add suivis d'une étoile permets d'ajouter tous les fichiers modifiés (html, css, bootstrap etc)
+
+Exemple:
+git add *
+
+git commit -m "msg pour dire se qu'il y a changé" (créations de paquets avant l'envoi des fichiers)
+
+exemple git -m "new disgn"
+
+git push (permets l'envoi des fichiers sur gitHub)
